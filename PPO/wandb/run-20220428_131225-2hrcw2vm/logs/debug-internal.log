@@ -1,0 +1,190 @@
+2022-04-28 13:12:25,328 INFO    MainThread:13204 [internal.py:wandb_internal():92] W&B internal server running at pid: 13204, started at: 2022-04-28 13:12:25.328254
+2022-04-28 13:12:25,329 INFO    WriterThread:13204 [datastore.py:open_for_write():77] open: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/run-2hrcw2vm.wandb
+2022-04-28 13:12:25,330 DEBUG   SenderThread:13204 [sender.py:send():235] send: header
+2022-04-28 13:12:25,331 DEBUG   SenderThread:13204 [sender.py:send():235] send: run
+2022-04-28 13:12:25,766 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: check_version
+2022-04-28 13:12:25,772 INFO    SenderThread:13204 [dir_watcher.py:__init__():169] watching files in: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files
+2022-04-28 13:12:25,772 INFO    SenderThread:13204 [sender.py:_start_run_threads():812] run started: 2hrcw2vm with start time 1651122745
+2022-04-28 13:12:25,772 DEBUG   SenderThread:13204 [sender.py:send():235] send: summary
+2022-04-28 13:12:25,772 INFO    SenderThread:13204 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-28 13:12:25,772 DEBUG   SenderThread:13204 [sender.py:send_request():249] send_request: check_version
+2022-04-28 13:12:26,053 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: run_start
+2022-04-28 13:12:26,054 DEBUG   HandlerThread:13204 [meta.py:__init__():37] meta init
+2022-04-28 13:12:26,054 DEBUG   HandlerThread:13204 [meta.py:__init__():51] meta init done
+2022-04-28 13:12:26,054 DEBUG   HandlerThread:13204 [meta.py:probe():211] probe
+2022-04-28 13:12:26,054 DEBUG   HandlerThread:13204 [git.py:repo():33] git repository is invalid
+2022-04-28 13:12:26,054 DEBUG   HandlerThread:13204 [meta.py:_save_pip():55] save pip
+2022-04-28 13:12:26,054 DEBUG   HandlerThread:13204 [meta.py:_save_pip():69] save pip done
+2022-04-28 13:12:26,055 DEBUG   HandlerThread:13204 [meta.py:_save_conda():76] save conda
+2022-04-28 13:12:26,774 INFO    Thread-7  :13204 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/requirements.txt
+2022-04-28 13:12:26,774 INFO    Thread-7  :13204 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/conda-environment.yaml
+2022-04-28 13:12:26,774 INFO    Thread-7  :13204 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/wandb-summary.json
+2022-04-28 13:12:27,071 DEBUG   HandlerThread:13204 [meta.py:_save_conda():86] save conda done
+2022-04-28 13:12:27,071 DEBUG   HandlerThread:13204 [meta.py:probe():249] probe done
+2022-04-28 13:12:27,076 DEBUG   SenderThread:13204 [sender.py:send():235] send: files
+2022-04-28 13:12:27,077 INFO    SenderThread:13204 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-28 13:12:27,080 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 13:12:27,081 DEBUG   SenderThread:13204 [sender.py:send_request():249] send_request: stop_status
+2022-04-28 13:12:27,393 DEBUG   SenderThread:13204 [sender.py:send():235] send: telemetry
+2022-04-28 13:12:27,394 DEBUG   SenderThread:13204 [sender.py:send():235] send: telemetry
+2022-04-28 13:12:27,774 INFO    Thread-7  :13204 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/conda-environment.yaml
+2022-04-28 13:12:27,774 INFO    Thread-7  :13204 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/wandb-metadata.json
+2022-04-28 13:12:27,775 INFO    Thread-7  :13204 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/output.log
+2022-04-28 13:12:27,942 INFO    Thread-11 :13204 [upload_job.py:push():137] Uploaded file /tmp/tmpmckh9ay3wandb/2r2guxpt-wandb-metadata.json
+2022-04-28 13:12:42,413 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 13:12:42,413 DEBUG   SenderThread:13204 [sender.py:send_request():249] send_request: stop_status
+2022-04-28 13:12:54,100 DEBUG   SenderThread:13204 [sender.py:send():235] send: stats
+2022-04-28 13:12:56,782 INFO    Thread-7  :13204 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/config.yaml
+2022-04-28 13:12:57,749 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 13:12:57,749 DEBUG   SenderThread:13204 [sender.py:send_request():249] send_request: stop_status
+2022-04-28 13:13:13,156 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 13:13:13,156 DEBUG   SenderThread:13204 [sender.py:send_request():249] send_request: stop_status
+2022-04-28 13:13:24,152 DEBUG   SenderThread:13204 [sender.py:send():235] send: stats
+2022-04-28 13:13:28,569 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 13:13:28,570 DEBUG   SenderThread:13204 [sender.py:send_request():249] send_request: stop_status
+2022-04-28 13:13:43,887 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 13:13:43,887 DEBUG   SenderThread:13204 [sender.py:send_request():249] send_request: stop_status
+2022-04-28 13:13:54,202 DEBUG   SenderThread:13204 [sender.py:send():235] send: stats
+2022-04-28 13:13:59,311 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 13:13:59,311 DEBUG   SenderThread:13204 [sender.py:send_request():249] send_request: stop_status
+2022-04-28 13:14:13,803 INFO    Thread-7  :13204 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/output.log
+2022-04-28 13:14:14,621 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 13:14:14,621 DEBUG   SenderThread:13204 [sender.py:send_request():249] send_request: stop_status
+2022-04-28 13:14:15,496 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,496 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,503 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,505 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,506 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,507 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,652 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,653 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,660 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,661 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,663 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,664 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,798 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,799 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,806 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,807 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,809 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,809 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,930 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,930 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,934 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,936 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,937 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:15,938 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,062 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,062 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,070 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,072 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,073 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,074 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,228 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,229 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,236 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,238 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,240 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,241 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,393 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,394 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,401 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,402 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,404 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,404 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,554 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,555 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,562 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,563 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,565 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,566 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,706 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,706 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,710 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,712 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,713 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,714 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,855 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,856 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,860 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,862 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,863 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,864 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,992 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,993 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,997 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:16,998 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,000 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,000 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,192 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,192 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,199 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,200 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,202 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,203 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,403 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,403 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,410 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,412 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,414 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,414 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,549 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,550 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,554 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,555 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,557 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,558 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,739 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,739 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,746 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,748 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,749 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,750 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,926 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,926 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,930 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,932 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,933 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,934 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,938 DEBUG   SenderThread:13204 [sender.py:send():235] send: telemetry
+2022-04-28 13:14:17,938 DEBUG   SenderThread:13204 [sender.py:send():235] send: files
+2022-04-28 13:14:17,939 INFO    SenderThread:13204 [sender.py:_save_file():947] saving file trained_models/ppo_0.pth with policy live
+2022-04-28 13:14:17,951 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:14:17,957 DEBUG   SenderThread:13204 [sender.py:send():235] send: history
+2022-04-28 13:14:17,960 DEBUG   SenderThread:13204 [sender.py:send():235] send: summary
+2022-04-28 13:14:17,962 INFO    SenderThread:13204 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-28 13:14:18,804 INFO    Thread-7  :13204 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/wandb-summary.json
+2022-04-28 13:14:24,250 DEBUG   SenderThread:13204 [sender.py:send():235] send: stats
+2022-04-28 13:14:28,807 INFO    Thread-7  :13204 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/config.yaml
+2022-04-28 13:14:29,968 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 13:14:29,968 DEBUG   SenderThread:13204 [sender.py:send_request():249] send_request: stop_status
+2022-04-28 13:14:45,388 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 13:14:45,389 DEBUG   SenderThread:13204 [sender.py:send_request():249] send_request: stop_status
+2022-04-28 13:14:54,300 DEBUG   SenderThread:13204 [sender.py:send():235] send: stats
+2022-04-28 13:15:00,698 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-28 13:15:00,698 DEBUG   SenderThread:13204 [sender.py:send_request():249] send_request: stop_status
+2022-04-28 13:15:05,755 WARNING MainThread:13204 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-04-28 13:15:05,755 DEBUG   SenderThread:13204 [sender.py:send():235] send: telemetry
+2022-04-28 13:15:05,756 DEBUG   HandlerThread:13204 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-28 13:15:05,757 DEBUG   SenderThread:13204 [sender.py:send():235] send: telemetry
+2022-04-28 13:15:14,763 WARNING MainThread:13204 [internal.py:is_dead():387] Internal process exiting, parent pid 13168 disappeared
+2022-04-28 13:15:14,763 ERROR   MainThread:13204 [internal.py:wandb_internal():151] Internal process shutdown.
+2022-04-28 13:15:14,764 INFO    HandlerThread:13204 [handler.py:finish():778] shutting down handler
+2022-04-28 13:15:15,759 INFO    SenderThread:13204 [sender.py:finish():1078] shutting down sender
+2022-04-28 13:15:15,759 INFO    SenderThread:13204 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-28 13:15:15,760 INFO    WriterThread:13204 [datastore.py:close():281] close: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/run-2hrcw2vm.wandb
+2022-04-28 13:15:15,815 INFO    SenderThread:13204 [dir_watcher.py:finish():313] scan: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files
+2022-04-28 13:15:15,815 INFO    SenderThread:13204 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/config.yaml config.yaml
+2022-04-28 13:15:15,815 INFO    SenderThread:13204 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/conda-environment.yaml conda-environment.yaml
+2022-04-28 13:15:15,815 INFO    SenderThread:13204 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/wandb-metadata.json wandb-metadata.json
+2022-04-28 13:15:15,816 INFO    SenderThread:13204 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/requirements.txt requirements.txt
+2022-04-28 13:15:15,816 INFO    SenderThread:13204 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/output.log output.log
+2022-04-28 13:15:15,816 INFO    SenderThread:13204 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/wandb-summary.json wandb-summary.json
+2022-04-28 13:15:15,816 INFO    SenderThread:13204 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-28 13:15:15,816 INFO    SenderThread:13204 [file_pusher.py:join():150] waiting for file pusher
+2022-04-28 13:15:16,714 INFO    Thread-12 :13204 [upload_job.py:push():137] Uploaded file /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/config.yaml
+2022-04-28 13:15:16,868 INFO    Thread-16 :13204 [upload_job.py:push():137] Uploaded file /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/wandb-summary.json
+2022-04-28 13:15:16,879 INFO    Thread-14 :13204 [upload_job.py:push():137] Uploaded file /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/requirements.txt
+2022-04-28 13:15:16,997 INFO    Thread-15 :13204 [upload_job.py:push():137] Uploaded file /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/output.log
+2022-04-28 13:15:17,215 INFO    Thread-13 :13204 [upload_job.py:push():137] Uploaded file /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220428_131225-2hrcw2vm/files/conda-environment.yaml
+2022-04-28 13:15:18,074 INFO    MainThread:13204 [internal.py:handle_exit():82] Internal process exited

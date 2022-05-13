@@ -1,0 +1,197 @@
+2022-04-27 13:35:24,256 INFO    MainThread:10460 [internal.py:wandb_internal():92] W&B internal server running at pid: 10460, started at: 2022-04-27 13:35:24.255771
+2022-04-27 13:35:24,257 INFO    WriterThread:10460 [datastore.py:open_for_write():77] open: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/run-3ipknr78.wandb
+2022-04-27 13:35:24,258 DEBUG   SenderThread:10460 [sender.py:send():235] send: header
+2022-04-27 13:35:24,258 DEBUG   SenderThread:10460 [sender.py:send():235] send: run
+2022-04-27 13:35:24,678 INFO    SenderThread:10460 [dir_watcher.py:__init__():169] watching files in: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files
+2022-04-27 13:35:24,678 INFO    SenderThread:10460 [sender.py:_start_run_threads():812] run started: 3ipknr78 with start time 1651037723
+2022-04-27 13:35:24,678 DEBUG   SenderThread:10460 [sender.py:send():235] send: summary
+2022-04-27 13:35:24,679 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: check_version
+2022-04-27 13:35:24,679 INFO    SenderThread:10460 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-27 13:35:24,679 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: check_version
+2022-04-27 13:35:24,890 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: run_start
+2022-04-27 13:35:24,891 DEBUG   HandlerThread:10460 [meta.py:__init__():37] meta init
+2022-04-27 13:35:24,891 DEBUG   HandlerThread:10460 [meta.py:__init__():51] meta init done
+2022-04-27 13:35:24,891 DEBUG   HandlerThread:10460 [meta.py:probe():211] probe
+2022-04-27 13:35:24,892 DEBUG   HandlerThread:10460 [git.py:repo():33] git repository is invalid
+2022-04-27 13:35:24,892 DEBUG   HandlerThread:10460 [meta.py:_save_pip():55] save pip
+2022-04-27 13:35:24,892 DEBUG   HandlerThread:10460 [meta.py:_save_pip():69] save pip done
+2022-04-27 13:35:24,892 DEBUG   HandlerThread:10460 [meta.py:_save_conda():76] save conda
+2022-04-27 13:35:25,680 INFO    Thread-7  :10460 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/conda-environment.yaml
+2022-04-27 13:35:25,680 INFO    Thread-7  :10460 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/requirements.txt
+2022-04-27 13:35:25,681 INFO    Thread-7  :10460 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/wandb-summary.json
+2022-04-27 13:35:25,855 DEBUG   HandlerThread:10460 [meta.py:_save_conda():86] save conda done
+2022-04-27 13:35:25,855 DEBUG   HandlerThread:10460 [meta.py:probe():249] probe done
+2022-04-27 13:35:25,857 DEBUG   SenderThread:10460 [sender.py:send():235] send: files
+2022-04-27 13:35:25,857 INFO    SenderThread:10460 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-27 13:35:25,862 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-27 13:35:25,862 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: stop_status
+2022-04-27 13:35:25,871 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-27 13:35:26,297 DEBUG   SenderThread:10460 [sender.py:send():235] send: telemetry
+2022-04-27 13:35:26,297 DEBUG   SenderThread:10460 [sender.py:send():235] send: telemetry
+2022-04-27 13:35:26,297 DEBUG   SenderThread:10460 [sender.py:send():235] send: telemetry
+2022-04-27 13:35:26,297 DEBUG   SenderThread:10460 [sender.py:send():235] send: telemetry
+2022-04-27 13:35:26,679 INFO    Thread-7  :10460 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/conda-environment.yaml
+2022-04-27 13:35:26,683 INFO    Thread-7  :10460 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/wandb-metadata.json
+2022-04-27 13:35:26,683 INFO    Thread-7  :10460 [dir_watcher.py:_on_file_created():217] file/dir created: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/output.log
+2022-04-27 13:35:26,902 INFO    Thread-11 :10460 [upload_job.py:push():137] Uploaded file /tmp/tmpmq8hgelpwandb/f1l6rexo-wandb-metadata.json
+2022-04-27 13:35:28,367 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:28,368 DEBUG   SenderThread:10460 [sender.py:send():235] send: exit
+2022-04-27 13:35:28,368 INFO    SenderThread:10460 [sender.py:send_exit():371] handling exit code: 1
+2022-04-27 13:35:28,368 INFO    SenderThread:10460 [sender.py:send_exit():373] handling runtime: 3
+2022-04-27 13:35:28,369 INFO    SenderThread:10460 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-27 13:35:28,369 INFO    SenderThread:10460 [sender.py:send_exit():379] send defer
+2022-04-27 13:35:28,369 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:28,370 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 13:35:28,370 INFO    HandlerThread:10460 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-27 13:35:28,370 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: defer
+2022-04-27 13:35:28,370 INFO    SenderThread:10460 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-27 13:35:28,370 INFO    SenderThread:10460 [sender.py:transition_state():392] send defer: 1
+2022-04-27 13:35:28,371 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 13:35:28,371 INFO    HandlerThread:10460 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-27 13:35:28,402 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: defer
+2022-04-27 13:35:28,402 INFO    SenderThread:10460 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-27 13:35:28,403 INFO    SenderThread:10460 [sender.py:transition_state():392] send defer: 2
+2022-04-27 13:35:28,403 DEBUG   SenderThread:10460 [sender.py:send():235] send: stats
+2022-04-27 13:35:28,403 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 13:35:28,403 INFO    HandlerThread:10460 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-27 13:35:28,403 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: defer
+2022-04-27 13:35:28,403 INFO    SenderThread:10460 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-27 13:35:28,403 INFO    SenderThread:10460 [sender.py:transition_state():392] send defer: 3
+2022-04-27 13:35:28,404 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 13:35:28,404 INFO    HandlerThread:10460 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-27 13:35:28,404 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: defer
+2022-04-27 13:35:28,404 INFO    SenderThread:10460 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-27 13:35:28,404 INFO    SenderThread:10460 [sender.py:transition_state():392] send defer: 4
+2022-04-27 13:35:28,404 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 13:35:28,404 INFO    HandlerThread:10460 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-27 13:35:28,404 DEBUG   SenderThread:10460 [sender.py:send():235] send: summary
+2022-04-27 13:35:28,405 INFO    SenderThread:10460 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-27 13:35:28,405 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: defer
+2022-04-27 13:35:28,405 INFO    SenderThread:10460 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-27 13:35:28,405 INFO    SenderThread:10460 [sender.py:transition_state():392] send defer: 5
+2022-04-27 13:35:28,405 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 13:35:28,405 INFO    HandlerThread:10460 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-27 13:35:28,405 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: defer
+2022-04-27 13:35:28,405 INFO    SenderThread:10460 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-27 13:35:28,471 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:28,680 INFO    Thread-7  :10460 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/wandb-summary.json
+2022-04-27 13:35:28,834 INFO    SenderThread:10460 [sender.py:transition_state():392] send defer: 6
+2022-04-27 13:35:28,834 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:28,835 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 13:35:28,835 INFO    HandlerThread:10460 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-27 13:35:28,835 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: defer
+2022-04-27 13:35:28,835 INFO    SenderThread:10460 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-27 13:35:28,835 INFO    SenderThread:10460 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-27 13:35:28,937 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:29,681 INFO    Thread-7  :10460 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/config.yaml
+2022-04-27 13:35:29,682 INFO    SenderThread:10460 [dir_watcher.py:finish():313] scan: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files
+2022-04-27 13:35:29,682 INFO    SenderThread:10460 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/config.yaml config.yaml
+2022-04-27 13:35:29,682 INFO    SenderThread:10460 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/conda-environment.yaml conda-environment.yaml
+2022-04-27 13:35:29,683 INFO    SenderThread:10460 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/wandb-metadata.json wandb-metadata.json
+2022-04-27 13:35:29,683 INFO    SenderThread:10460 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/requirements.txt requirements.txt
+2022-04-27 13:35:29,683 INFO    SenderThread:10460 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/output.log output.log
+2022-04-27 13:35:29,690 INFO    SenderThread:10460 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/wandb-summary.json wandb-summary.json
+2022-04-27 13:35:29,698 INFO    SenderThread:10460 [sender.py:transition_state():392] send defer: 7
+2022-04-27 13:35:29,698 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:29,701 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 13:35:29,701 INFO    HandlerThread:10460 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-27 13:35:29,701 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: defer
+2022-04-27 13:35:29,701 INFO    SenderThread:10460 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-27 13:35:29,701 INFO    SenderThread:10460 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-27 13:35:29,800 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:29,800 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:29,902 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:29,903 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:30,005 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:30,005 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:30,107 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:30,108 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:30,210 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:30,211 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:30,313 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:30,313 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:30,415 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:30,416 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:30,518 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:30,518 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:30,536 INFO    Thread-15 :10460 [upload_job.py:push():137] Uploaded file /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/wandb-summary.json
+2022-04-27 13:35:30,620 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:30,621 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:30,723 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:30,723 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:30,771 INFO    Thread-14 :10460 [upload_job.py:push():137] Uploaded file /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/requirements.txt
+2022-04-27 13:35:30,825 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:30,826 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:30,928 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:30,929 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:31,031 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:31,031 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:31,134 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:31,134 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:31,236 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:31,237 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:31,339 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:31,339 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:31,442 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:31,442 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:31,545 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:31,545 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:31,647 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:31,648 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:31,750 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:31,751 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:31,853 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:31,853 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:31,956 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:31,956 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:32,059 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:32,059 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:32,161 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:32,162 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:32,264 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:32,265 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:32,367 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:32,367 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:32,470 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:32,470 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:32,480 INFO    Thread-13 :10460 [upload_job.py:push():137] Uploaded file /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/conda-environment.yaml
+2022-04-27 13:35:32,573 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:32,573 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:32,675 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:32,676 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:32,693 INFO    Thread-12 :10460 [upload_job.py:push():137] Uploaded file /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/files/config.yaml
+2022-04-27 13:35:32,778 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:32,779 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:32,881 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:32,881 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:32,894 INFO    Thread-6  :10460 [sender.py:transition_state():392] send defer: 8
+2022-04-27 13:35:32,894 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 13:35:32,895 INFO    HandlerThread:10460 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-27 13:35:32,895 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: defer
+2022-04-27 13:35:32,895 INFO    SenderThread:10460 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-27 13:35:32,984 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:33,216 INFO    SenderThread:10460 [sender.py:transition_state():392] send defer: 9
+2022-04-27 13:35:33,216 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:33,217 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 13:35:33,217 INFO    HandlerThread:10460 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-27 13:35:33,218 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: defer
+2022-04-27 13:35:33,218 INFO    SenderThread:10460 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-27 13:35:33,218 INFO    SenderThread:10460 [sender.py:transition_state():392] send defer: 10
+2022-04-27 13:35:33,219 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 13:35:33,219 DEBUG   SenderThread:10460 [sender.py:send():235] send: final
+2022-04-27 13:35:33,220 INFO    HandlerThread:10460 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-27 13:35:33,220 DEBUG   SenderThread:10460 [sender.py:send():235] send: footer
+2022-04-27 13:35:33,220 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: defer
+2022-04-27 13:35:33,221 INFO    SenderThread:10460 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-04-27 13:35:33,319 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 13:35:33,320 DEBUG   SenderThread:10460 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 13:35:33,320 INFO    SenderThread:10460 [file_pusher.py:join():150] waiting for file pusher
+2022-04-27 13:35:34,533 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-27 13:35:34,533 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-27 13:35:34,534 DEBUG   HandlerThread:10460 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-27 13:35:34,534 INFO    HandlerThread:10460 [handler.py:finish():778] shutting down handler
+2022-04-27 13:35:35,220 INFO    WriterThread:10460 [datastore.py:close():281] close: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220427_133523-3ipknr78/run-3ipknr78.wandb
+2022-04-27 13:35:35,431 INFO    SenderThread:10460 [sender.py:finish():1078] shutting down sender
+2022-04-27 13:35:35,431 INFO    SenderThread:10460 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-27 13:35:35,431 INFO    SenderThread:10460 [file_pusher.py:join():150] waiting for file pusher
+2022-04-27 13:35:35,432 INFO    MainThread:10460 [internal.py:handle_exit():82] Internal process exited

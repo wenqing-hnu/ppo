@@ -1,0 +1,24 @@
+
+Warning: trajectory cut off by epoch at 10 steps.
+[32mEarly stopping at step 2 due to reaching max kl.
+---------------------------------------
+|             Epoch |               0 |
+|      AverageEpRet |           -2.21 |
+|          StdEpRet |            2.65 |
+|          MaxEpRet |               1 |
+|          MinEpRet |              -5 |
+|             EpLen |            11.9 |
+|      AverageVVals |         -0.0468 |
+|          StdVVals |          0.0488 |
+|          MaxVVals |           0.162 |
+|          MinVVals |          -0.135 |
+| TotalEnvInteracts |           4e+03 |
+|            LossPi |        1.86e-08 |
+|             LossV |             8.2 |
+|       DeltaLossPi |        -0.00823 |
+|        DeltaLossV |            -3.1 |
+|           Entropy |             1.1 |
+|                KL |          0.0174 |
+|          ClipFrac |            0.44 |
+|          StopIter |               2 |
+|              Time |             113 |

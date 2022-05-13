@@ -1,0 +1,23 @@
+2022-05-04 17:52:39,566 INFO    MainThread:793450 [wandb_setup.py:_flush():75] Loading settings from /home/wenqing/.config/wandb/settings
+2022-05-04 17:52:39,566 INFO    MainThread:793450 [wandb_setup.py:_flush():75] Loading settings from /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/settings
+2022-05-04 17:52:39,566 INFO    MainThread:793450 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-05-04 17:52:39,566 INFO    MainThread:793450 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'ppo.py', 'program': '/home/wenqing/PycharmProjects/pythonProject/PPO/ppo.py'}
+2022-05-04 17:52:39,566 INFO    MainThread:793450 [wandb_init.py:_log_setup():405] Logging user logs to /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220504_175239-1e1x2726/logs/debug.log
+2022-05-04 17:52:39,566 INFO    MainThread:793450 [wandb_init.py:_log_setup():406] Logging internal logs to /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220504_175239-1e1x2726/logs/debug-internal.log
+2022-05-04 17:52:39,567 INFO    MainThread:793450 [wandb_init.py:init():439] calling init triggers
+2022-05-04 17:52:39,567 INFO    MainThread:793450 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'env': 'roundabout-v0', 'hid': 256, 'l': 2, 'gamma': 0.99, 'seed': 0, 'cpu': 4, 'max_ep_len': 4000, 'num_steps': 500000.0, 'steps_per_epoch': 4000, 'cost_limit': 0, 'safe_check': False, 'run_name': 'ppo_wxs', 'proj_name': 'Roundabout'}
+2022-05-04 17:52:39,567 INFO    MainThread:793450 [wandb_init.py:init():492] starting backend
+2022-05-04 17:52:39,567 INFO    MainThread:793450 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-05-04 17:52:39,584 INFO    MainThread:793450 [backend.py:ensure_launched():219] starting backend process...
+2022-05-04 17:52:39,590 INFO    MainThread:793450 [backend.py:ensure_launched():224] started backend process with pid: 793564
+2022-05-04 17:52:39,591 INFO    MainThread:793450 [wandb_init.py:init():501] backend started and connected
+2022-05-04 17:52:39,595 INFO    MainThread:793450 [wandb_init.py:init():565] updated telemetry
+2022-05-04 17:52:39,596 INFO    MainThread:793450 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-05-04 17:53:09,596 INFO    MainThread:793450 [interface_shared.py:_communicate_run():322] couldn't get run from backend
+2022-05-04 17:53:09,597 ERROR   MainThread:793450 [wandb_init.py:init():601] backend process timed out
+2022-05-04 17:53:09,597 ERROR   MainThread:793450 [wandb_init.py:init():610] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2022-05-04 17:56:18,597 INFO    MainThread:793450 [wandb_init.py:teardown():253] tearing down wandb.init

@@ -1,0 +1,81 @@
+2022-05-04 17:52:40,361 INFO    MainThread:793611 [internal.py:wandb_internal():92] W&B internal server running at pid: 793611, started at: 2022-05-04 17:52:40.360964
+2022-05-04 17:52:40,362 INFO    WriterThread:793611 [datastore.py:open_for_write():77] open: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220504_175240-3lkxltis/run-3lkxltis.wandb
+2022-05-04 17:52:40,363 DEBUG   SenderThread:793611 [sender.py:send():235] send: header
+2022-05-04 17:52:40,363 DEBUG   SenderThread:793611 [sender.py:send():235] send: run
+2022-05-04 17:53:10,103 DEBUG   HandlerThread:793611 [handler.py:handle_request():141] handle_request: shutdown
+2022-05-04 17:53:10,104 INFO    HandlerThread:793611 [handler.py:finish():778] shutting down handler
+2022-05-04 17:53:10,370 INFO    WriterThread:793611 [datastore.py:close():281] close: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220504_175240-3lkxltis/run-3lkxltis.wandb
+2022-05-04 17:53:14,479 ERROR   SenderThread:793611 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/http/client.py", line 1322, in getresponse
+    response.begin()
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/http/client.py", line 303, in begin
+    version, status, reason = self._read_status()
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/http/client.py", line 264, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/urllib3/connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/urllib3/connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/wenqing/anaconda3/envs/merge/lib/python3.8/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2022-05-04 17:56:23,008 INFO    SenderThread:793611 [dir_watcher.py:__init__():169] watching files in: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220504_175240-3lkxltis/files
+2022-05-04 17:56:23,008 INFO    SenderThread:793611 [sender.py:_start_run_threads():812] run started: 3lkxltis with start time 1651657960
+2022-05-04 17:56:23,008 INFO    SenderThread:793611 [sender.py:finish():1078] shutting down sender
+2022-05-04 17:56:23,008 INFO    SenderThread:793611 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-05-04 17:56:24,008 INFO    SenderThread:793611 [dir_watcher.py:finish():313] scan: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220504_175240-3lkxltis/files
+2022-05-04 17:56:24,008 INFO    SenderThread:793611 [dir_watcher.py:finish():327] scan save: /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220504_175240-3lkxltis/files/config.yaml config.yaml
+2022-05-04 17:56:24,008 INFO    SenderThread:793611 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-04 17:56:24,008 INFO    SenderThread:793611 [file_pusher.py:join():150] waiting for file pusher
+2022-05-04 17:56:25,356 INFO    Thread-9  :793611 [upload_job.py:push():137] Uploaded file /home/wenqing/PycharmProjects/pythonProject/PPO/wandb/run-20220504_175240-3lkxltis/files/config.yaml
+2022-05-04 17:56:27,304 INFO    MainThread:793611 [internal.py:handle_exit():82] Internal process exited

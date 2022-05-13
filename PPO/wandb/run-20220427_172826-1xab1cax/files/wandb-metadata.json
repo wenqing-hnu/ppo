@@ -1,0 +1,16 @@
+{
+    "os": "Linux-5.13.0-39-generic-x86_64-with-glibc2.10",
+    "python": "3.8.0",
+    "heartbeatAt": "2022-04-27T09:28:27.749440",
+    "startedAt": "2022-04-27T09:28:26.475322",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/wenqing/PycharmProjects/pythonProject/PPO/ppo.py",
+    "codePath": "ppo.py",
+    "host": "yuanshijie-ubuntu",
+    "username": "wenqing",
+    "executable": "/home/wenqing/anaconda3/envs/merge/bin/python"
+}

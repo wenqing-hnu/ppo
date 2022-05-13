@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.13.0-39-generic-x86_64-with-glibc2.10",
+    "python": "3.8.0",
+    "heartbeatAt": "2022-05-13T10:16:23.887861",
+    "startedAt": "2022-05-13T10:16:20.849899",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/wenqing/PycharmProjects/pythonProject/PPO/ppo.py",
+    "codePath": "ppo.py",
+    "git": {
+        "remote": "https://github.com/wenqing-hnu/yzy.git",
+        "commit": "bdccff219e6fcbcfe79bb9b21a267d554b6c3877"
+    },
+    "email": "1140349586@qq.com",
+    "root": "/home/wenqing/PycharmProjects/pythonProject/PPO",
+    "host": "yuanshijie-ubuntu",
+    "username": "wenqing",
+    "executable": "/home/wenqing/anaconda3/envs/merge/bin/python"
+}
